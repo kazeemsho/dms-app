@@ -269,4 +269,18 @@ a{
    
   }
 }
+@media (max-width: 297px) {
+
+  h1.Lets_help_you_manage {
+    font-size: 20px;
+  
+  }
+}
+@media (max-width: 237px) {
+
+  h1.Lets_help_you_manage {
+    font-size: 15px;
+    line-height: 28px;  
+  }
+}
  

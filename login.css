@@ -208,6 +208,13 @@ a{
 }
 
 @media (max-width: 530px) {
+
+  .right_container {
+    width: 100vw;
+    padding: min(68px, 10%);
+    gap: 30px;
+  }
+  
   h1.Lets_help_you_manage {
     font-size: 25px;
     line-height: 38px;
@@ -223,10 +230,10 @@ a{
   .third_div{
     flex-direction: column;
     gap: 25px;
-  }
+    width: 100%;
+  } 
   .Login {
-
-    width: 62px;
+    width: 100%;
     min-height: 40px;
     border-radius: 10px;
     align-self: center;
@@ -245,8 +252,7 @@ a{
   }
   .enter_the_following {
     outline: none;
-    font-size: 11px;
-    
+    font-size: 11px;    
     padding: 0px;
   }
   .email_placeholder,
@@ -260,13 +266,11 @@ a{
     font-size: 12px;
     line-height: 18px;    
   }
-  .right_container {
-    gap: 30px;
-  }
+ 
+  
   .get_started_button {
     width: 100px;
-    height: 40px;
-   
+    height: 40px;   
   }
 }
 @media (max-width: 297px) {

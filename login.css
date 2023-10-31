@@ -214,7 +214,6 @@ a{
     padding: min(68px, 10%);
     gap: 30px;
   }
-  
   h1.Lets_help_you_manage {
     font-size: 25px;
     line-height: 38px;
@@ -238,7 +237,6 @@ a{
     border-radius: 10px;
     align-self: center;
   }  
-
   .outer_for_Just_joining_and_span {   
     width: 100%;  
     align-self: center;
@@ -265,9 +263,7 @@ a{
   .forget_placeholder {
     font-size: 12px;
     line-height: 18px;    
-  }
- 
-  
+  }  
   .get_started_button {
     width: 100px;
     height: 40px;   

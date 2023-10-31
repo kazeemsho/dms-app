@@ -1,0 +1,272 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #f5f5f2;
+}
+.dms_logo_login_page
+{
+  width: 104px;
+  height: 36px;
+  margin-top: 14px;
+  margin-left: 58px;
+}
+
+.Youre_Welcome,
+.enter_the_following,
+.email_placeholder,
+.forget_placeholder,
+.password_placeholder,
+.forget_placeholder {
+  background: #fff;
+}
+.Just_joining,
+.Register_Now,
+.outer_for_Just_joining_and_span,
+.third_div {
+  background: #fff;
+}
+.first_div,
+.second_div,
+.outer_for_Just_joining_and_span {
+  background: #fff;
+}
+.body {
+  background: #f5f5f2;
+}
+.Man_On_Scooter {
+  height: 157px;
+  width: 157px;
+}
+h1.Lets_help_you_manage {
+  /*outline: 1px solid black;*/
+  max-width: 602px;
+  font-size: 40px;
+  font-weight: 500px;
+  line-height: 52px;
+  margin-top: min(32px, 10%);
+  text-align: center;
+}
+h3.Every_logistics {
+  /*outline: 1px solid black;*/
+  max-width: 430px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  margin-top: min(25px, 10%);
+  text-align: center;
+  opacity: 40%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  background-color: #053582;
+}
+.get_started_button {
+  width: 126px;
+  height: 44px;
+  margin-top: min(25px, 10%);
+  color: white;
+  background-color: #053582;
+  border-radius: 15px;
+}
+.left_container {
+  outline: none;
+  max-width: 602px;
+  background: #f5f5f2;
+  display: flex;
+  flex-direction: column;
+  margin-top: min(41px, 10%);
+  align-items: center;
+}
+
+.right_container {
+  outline: none;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 3px -5px 40px 0px rgba(205, 205, 212, 0.1);
+  max-width: 516px;
+  margin-top: min(80px, 10%);
+  display: flex;
+  flex-direction: column;
+  padding: min(48px, 10%);
+  gap: 40px;
+}
+.first_div {
+  outline: none;
+  display: flex;
+  max-width: 300px;
+  min-height: 62px;
+  flex-direction: column;
+  font-size: 28px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: left;
+  gap: 8px;
+}
+.enter_the_following {
+  outline: none;
+  max-width: 242px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 18px;
+  text-align: left;
+  color: #404040;
+  padding: 5px;
+}
+.second_div {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.email_placeholder,
+.password_placeholder {
+  display: block;
+  min-height: 48px;
+  width: 100%;
+  padding-left: min(20px, 10%);
+  color: #b5b5be;
+  border-radius: 10px;
+  border: 1px solid #e2e2ea;
+  background: #fff;
+}
+
+.forget_placeholder {
+  outline: none;
+  min-height: 18px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 18px;
+  width: 100%;
+  text-align: end;
+  color: #053582;
+}
+.third_div {
+  outline: none; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 44px;
+  gap: 87px;
+}
+.Just_joining, .Register_Now {
+  
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 18px;
+  color: #b5b5be;
+}
+.outer_for_Just_joining_and_span {
+  outline: none;  
+  width: 251px;
+  display: flex;
+  align-self: center;
+  padding-left: min(20px, 10%);
+  min-height: 18px;
+}
+.Register_Now {
+  color: #053582;
+}
+
+.Login {
+  background-color: #053582;
+  color: #ffffff;
+  width: 82px;
+  min-height: 44px;
+  border-radius: 10px;
+}
+.container_section {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: min(206px, 10%);
+  background: #f5f5f2;
+}
+.Youre_Welcome {
+  max-width: 300px;
+  min-height: 36px;
+  font-size: 28px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: left;
+  color: #393939;
+}
+
+@media (max-width: 900px) {
+  .container_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1.Lets_help_you_manage {
+    font: size 30px;
+    font-weight: 300px;
+  }
+  .third_div {
+    max-width: 416px;
+  }
+}
+
+@media (max-width: 530px) {
+  h1.Lets_help_you_manage {
+    font-size: 25px;
+    line-height: 38px;
+    max-width: 450px;
+    font-weight: 200px;
+    margin-top: min(20px, 10%);    
+  }
+  h3.Every_logistics {
+    outline: none;
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .third_div{
+    flex-direction: column;
+    gap: 25px;
+  }
+  .Login {
+
+    width: 62px;
+    min-height: 40px;
+    border-radius: 10px;
+    align-self: center;
+  }  
+
+  .outer_for_Just_joining_and_span {   
+    width: 100%;  
+    align-self: center;
+    padding: left 0px;
+    min-height: 18px;
+  }
+  .Youre_Welcome {
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 36px;  
+  }
+  .enter_the_following {
+    outline: none;
+    font-size: 11px;
+    
+    padding: 0px;
+  }
+  .email_placeholder,
+  .password_placeholder {
+  font-size: 10px;
+  }  
+  .Just_joining, .Register_Now {  
+    font-size: 11px; 
+  }
+  .forget_placeholder {
+    font-size: 12px;
+    line-height: 18px;    
+  }
+  .right_container {
+    gap: 30px;
+  }
+  .get_started_button {
+    width: 100px;
+    height: 40px;
+   
+  }
+}
+ 

@@ -1,0 +1,369 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.dms_header {
+  background-color: #f5f5f2;
+}
+.dms_image {
+  height: 36px;
+  width: 104px;
+  margin-top: min(14px, 10%);
+  margin-left: min(57px, 10%);
+}
+.outer_most_container {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f2;
+  gap: 40px;
+}
+.scooter {
+  height: 157px;
+  width: 157px;
+  outline: none;
+}
+.left_container {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f2;
+  margin-top: min(41px, 10%);
+}
+
+.shrinking_lines {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  height: 6px;
+  margin-top: 0px;
+  background-color: #390e9614;
+  border-radius: 3px;
+}
+.innerline {
+  max-width: 271px;
+  margin-top: -6px;
+  height: 6px;
+  background-color: #053582;
+  border-radius: 3px;
+}
+
+h1.manage_riders {
+  outline: none;
+  max-width: 500px;
+  font-size: 40px;
+  font-weight: 500px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-top: min(32px, 10%);
+}
+.logistics {
+  font-size: 14px;
+  max-width: 390px;
+  margin-top: min(25px, 10%);
+  font-weight: 400px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.Get_started {
+  max-width: 126px;
+  max-height: 54px;
+  background-color: #053582;
+  border-radius: 5px;
+  color: white;
+  margin-top: 25px;
+  padding: 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.right_container {
+  outline: none;
+  padding: 48px;
+  max-width: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: min(48px, 20%);
+  margin-top: min(30px, 10%);
+  margin-bottom: min(80px, 10%);
+  box-shadow: 3px -5px 40px 0px #cdcdd41a;
+  background: #ffffff;
+  gap: 40px;
+}
+.inner_right_container {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: #ffffff;
+}
+.Basic_Information_div {
+  display: flex;
+  flex-direction: column;
+  max-width: 237px;
+  gap: 8px;
+}
+.basic_info {
+  outline: none;
+  max-width: 234px;
+  max-height: 72px;
+  font-size: 28px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: left;
+}
+.information_below {
+  outline: none;
+  max-width: 206px;
+  max-height: 80px;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 16px;
+  text-align: left;
+}
+.div_2 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.flex1 {
+  display: flex;
+  outline: none;
+  height: 48px;
+  width: 100%;
+  position: relative;
+}
+.FZ_Logistics {
+  max-width: 200px;
+  height: 38px;
+  color: #252525;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.FZ_Logistics::placeholder {
+  color: #252525;
+}
+.Last_Name {
+  max-width: 200px;
+  border: 1px solid #e2e2ea;
+  border-radius: 0px;
+  height: 38px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.By_clicking {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 18px;
+  text-align: left;
+}
+div > span:nth-child(2)
+{
+  color: blue;
+}
+.Got_an_account span:nth-child(2)
+{
+  color: blue;
+}
+.register_container {
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 87px;
+  text-align: center;
+  padding: 5px;
+ 
+  width: 100%;
+}
+.Got_an_account {
+  outline: none
+  width: 227px;
+  min-height: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+.register {
+  max-width: 101px;
+  height: 44px;
+
+  background: #053582;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+.company_Name {
+  width: max-content;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 18px;
+  text-align: left;
+  color: #92929d;
+  box-shadow: 10px 10x 10px 10px white;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  z-index: 1000;
+}
+.company_info {
+  max-width: 416px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Company_Address,
+.Phone_Number,
+.Company_Email_Address,
+.Password,
+.FZ_Logistics,
+.Last_Name {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #e2e2ea;
+}
+.FZ_Logistics {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 860px) {
+  .outer_most_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  h1.manage_riders {
+    font-size: 32px;
+    font-weight: 300px;
+    line-height: 42px;
+  }
+  .inner_right_container {
+    width: 100%;
+    gap: 30px;
+  }
+  .right_container {
+    padding: min(40px, 10%);
+    justify-content: center;
+    max-width: 100%;
+
+    margin: 5px;
+  }
+  .basic_info {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 26px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 509px) {
+  .Get_started {
+    padding: 10px;
+  }
+  .register {
+    padding: 5px;
+  }
+
+  .line {
+    max-width: 100%;
+  }
+  .innerline {
+    max-width: 60%;
+  }
+
+  h1.manage_riders {
+    max-width: 400px;
+    font-size: 25px;
+    font-weight: 50px;
+    line-height: 40px;
+  }
+  .flex1 {
+    flex-direction: column;
+    width: 100%;
+    min-height: 120px;
+  }
+  .FZ_Logistics {
+    max-width: 100%;
+    height: 38px;
+    top: 9px;
+    left: 0px;
+  }
+  .Last_Name {
+    max-width: 100%;
+    height: 38px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .logistics {
+    font-size: 11px;
+    max-width: 300px;
+
+  }
+  .Company_Address,
+  .Phone_Number,
+  .Company_Email_Address,
+  .Password,
+  .Last_Name {
+    outline: none;
+    height: 10px;
+  }
+  .By_clicking {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .register_container {    
+    flex-direction: column;    
+    gap: 15px;
+  }
+  .Got_an_account {
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .By_clicking {
+    font-size: 9px;
+  }
+}
+@media (max-width: 377px) {
+  .Get_started {
+    margin-top: min(10px, 10%);
+  }
+  h1.manage_riders {
+    font-size: 18px;
+    font-weight: 50px;
+    line-height: 30px;
+  }
+  .company_Name,
+  .Company_Address,
+  .Phone_Number,
+  .Company_Email_Address,
+  .Password,
+  .FZ_Logistics,
+  .Last_Name {
+   font-size: 10px;
+  }
+  .Got_an_account > span{
+    font-size: 12px;
+  }
+}

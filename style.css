@@ -367,3 +367,12 @@ div > span:nth-child(2)
     font-size: 12px;
   }
 }
+
+@media (max-width:245px) {
+
+  .information_below {    
+    font-size: 9px;
+    
+  }
+  
+}

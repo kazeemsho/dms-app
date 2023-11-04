@@ -1,0 +1,505 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  /* ALL DASHBORAD MOTHER*/
+  .our_dashboard{
+    display: flex;
+    gap: 39px;
+  
+  }
+  /* ALL DASHBORAD MOTHER*/
+  
+  .left_nav_bar{
+    outline: 1px solid red;
+    max-width: 215px;
+    max-height: 1000px;
+  }
+
+  img.dashborad_Logo_top{
+    height: 36px;
+    width: 36px;
+    display: block;   
+    margin-top: min(32px, 10%);
+    margin-left: min(13px, 10%);
+    
+  }
+  .progress_indicator{
+    
+    height: 1px;
+    width: 70px;
+    margin-top: min(30px, 10%);
+    margin-left: min(13px, 10%);
+    background: #FFFFFF;
+  }
+  .left_inner_dashboard{
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    max-width: 205px;
+    min-height: 691px;
+    gap: 41px;
+    margin-left: min(5px, 10%);
+    margin-top: min(40px, 10%);
+    background: #FFFFFF;
+  }
+
+  .dashborad, .Companies, .Order_Pool, .Order_History, 
+  .Subscriptions, .Earnings, .Reports, .Settings, 
+  .Supports{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: min(34px, 10%);
+    padding-right: min(34px, 10%);
+    display: flex;
+    opacity: 40%;
+    color: #252525;
+    gap: 28px;
+  }
+  .dashborad{
+    background: #E8F0FE;
+    border-radius: 20px;
+    opacity: inherit;    
+  }
+  .total_exchange, 
+  .total_companies,
+  .total_cancelled,
+  .total_created
+  {
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    /*max-width: 152px;*/
+    width: 100vw;
+    
+  }
+  .total_exchange h1, 
+  .total_companies h1,
+  .total_cancelled h1,
+  .total_created h1
+  {
+    max-width: 152px; 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+  }
+  .total_exchange > div > span, 
+  .total_companies > div > span,
+  .total_cancelled > div > span
+  {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: left;
+    color: #FF3A29;
+  }
+ 
+  .total_exchange > div, 
+  .total_companies  > div,
+  .total_cancelled  > div,
+  .total_created > div
+  {
+    display: flex;
+    gap: 4px;
+  }
+  .Hart_green, .Frame, 
+  .warning_logo{
+    width: 37px;
+    height: 37px;
+  }
+  .total_exchange_right, 
+  .total_companies_right,
+  .total_cancelled_Orders_right
+  {
+    outline: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 29px;
+    max-width: 51px;
+  }
+
+  .total_exchange_right > div > span, 
+  .total_companies_right > div > span,
+  .total_cancelled_Orders_right > div > span
+  {
+    width: 34px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .total_exchange_right > div,
+  .total_companies_right > div,
+  .total_cancelled_Orders_right > div
+  {
+    display: flex;
+    gap: 5px;
+    max-width: 51px;
+   
+  }
+  .first_rigt_dashboard{
+    outline: 1px solid blue;
+    padding: min(10px, 10%);
+    max-width: 380px;
+    min-height: 106px;
+    /*width: 100vw;*/
+    display: flex;
+    gap: 77px; 
+  }
+ .total_companies_container, 
+ .total_cancelled_Orders_container,
+ .total_created_Orders_container{
+    outline: 1px solid blue;
+    padding: min(10px, 10%);
+    max-width: 280px;
+    min-height: 106px;
+    /*width: 100vw;*/
+    display: flex;
+    gap: 77px; 
+  }
+  .total_exchange_outer, .total_companies_outer,
+  .total_cancelled_Orders_outer, 
+  .total_created_Orders_outer{
+    outline: 1px solid red;
+    max-width: 326px;
+    padding: min(35px, 10%);   
+  }
+  .exchange_image{
+    display: flex; 
+    gap: 88px;    
+  }
+
+  .main_container_first_two_dashboard{
+    display: flex;
+    gap: 30px;
+  }
+  .three_forty{
+    outline: 1px solid purple;
+    max-width: 145px;
+    height: 38px;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: left;
+    align-self: end;
+  }
+  .upper_mid_div{
+    outline: 1px solid purple;
+    max-width: 204px;
+    padding: min(26px, 10%);
+  }
+  .allen_lagos_three_forty{
+    outline: 1px solid purple;
+    display: flex;
+    gap: 53px;     
+  }
+  .one_twenty{
+    width: 64px;
+    height: 52px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+  }
+  h4.companies_sent_orders{
+    max-width: 152px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+  .female_pics{
+    display: block;
+    margin-top: min(29px, 10%);
+  }
+  .female_pics_div{
+    outline:1px solid palegreen;
+    max-width: 112px;
+    padding-right: min(68px, 10%);
+    padding-bottom: min(25px, 10%);
+  }
+  .eight_four{
+    width: 52px;
+    height: 28px;
+    color: #FF3A29;
+  }
+ .blue_graph{
+  max-width: 144px;   
+ }
+ .comapred_to_yesterday{
+  max-width: 154px; 
+  font-size: 14px; 
+  font-weight: 400;
+  text-align: left;
+ }
+
+ h2.exchange{
+  max-width: 163px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+  
+ }
+ h4.most_orders{
+  max-width: 129px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: #92929D;
+ }
+ .image_fz_deliveries_allen_lagos_container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: min(10px, 10%);
+ }
+ .exchange_poollogo{
+  width: 89px;
+  height: 65px;
+  border-radius: 12px;
+  transform: rotate(-180deg);
+ }
+ h3.fz_deliveries{
+  max-width: 99px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+ }
+ 
+ h5.allen_lagos{
+  width: 78px;
+  height: 20px;
+  opacity: 40%;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+ }
+ .exchange_pool_container{
+  outline:1px solid black;
+  max-width: 326px;
+  padding-top: min(22px, 10%);
+  padding-left: min(26px, 10%);
+  padding-right: min(23px, 10%);
+ }
+ .five_o4_orders__267_pushed_to_pool_container{
+  outline:1px solid blue;
+  margin-top: min(15px, 10%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 90px;
+ }
+ .five_o4{
+  display: block;
+  width: 44px;
+  height: 29px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #FF3A29;
+ }
+ ._267{
+  display: block;
+  width: 44px;
+  height: 29px;
+  font-size: 22px;
+  font-weight: 700;
+  color: ##4339F2;
+ }
+ .orders{
+  opacity: 40%;
+  width: 46px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+ }
+ .pushed_to_pool{
+  opacity: 40%;
+  max-width:100px;  
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;  
+ }
+ h2.orders_today{
+  max-width: 141px;
+  /*margin-top: min(31px, 10%);*/
+  margin-left: min(30px, 10%);
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+ }
+ .daily{
+  /*margin-top: min(30px, 10%);*/
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 32px;
+ }
+ .daily_img_div{
+  display: flex;
+  gap: 5px;
+ }
+ .order_today_container{  /* ?????????? */
+  max-width: 692px;
+  outline: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-right: min(22px, 10%);
+  align-items: center;
+ }
+ .orders_today_and_daily_img_div{
+  outline: 1px solid blue;
+
+  padding-top: 31px;
+ 
+ }
+ .coloured_round_shapes{
+  margin-top: 9px;
+  margin-left: min(33px, 10%);
+  display: flex;
+  gap: 22px;
+ }
+ .blue_round_delivered, 
+ .green_round_delivered, .red_round_cancelled{
+  display: flex;
+  gap:6px;
+ }
+ .delivered, .delivered, .cancelled{
+  max-width: 81px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color:#000000;
+ }
+ .number_div{
+  margin-left: min(53px, 10%);
+  display: flex;
+  gap: 57px;
+ }
+ ._320, ._230, ._80{
+  width:45px;
+  height: 31px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+ }
+ .full_outer_comtainer{
+  display: flex;
+  flex-direction: column;
+ }
+
+ ._86_percent, 
+ ._67_percent, img._14_percent {
+  width: 71px;
+  height: 71px;
+ }
+
+ .percentage_container{
+  display: flex;
+  justify-content: end;
+  margin-right: min(29px, 10%);
+  gap: 17px;
+  
+ }
+ .first_body_inner_dashboard{
+  margin-top: min(80px, 10%);
+ }
+
+ .degree_container{
+ 
+  display: flex;
+  gap: 39px;
+  margin-top: min(155px, 10%);
+  
+ }
+
+ .mountain_section{  
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  max-width: 100%;
+  height: 204px;
+ }
+
+ .Gray_mountaun{
+  width: 100%;
+  height: 204px;
+ }
+
+.Green_mountain{
+  outline: none;
+  margin-top:-151px;
+  width: 100%;
+  height: 151px;
+}
+.Red_mountain{
+  margin-top:-66px;
+  width: 100%;
+  height: 66px;
+}
+.indicator{
+  outline: 1px solid black;
+  max-width: 569px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: min(30px, 10%);
+}
+.indicator h1{
+  max-width: 176px;  
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+}
+.unordered_list > span  {
+  width: max-content;
+  height: 15px;
+  opacity: 40%;
+  font-size: 10px;
+  font-weight: 400; 
+  text-align: left; 
+}
+.progrss_indicator{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  
+}
+.progrss_indicator progress{
+  width: 20vw;
+  height: 17px;
+  color: #053582;
+}
+.unordered_list{
+  display: flex;
+  flex-direction: column;
+  gap: 36px ;  
+}
+.below_degree_container{
+  display: flex;
+  gap: 38px;
+}
+.list_indicator{
+  display: flex;
+  gap: 30px;
+}
+  
+ 

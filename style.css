@@ -346,6 +346,7 @@ div > span:nth-child(2)
   }
 }
 @media (max-width: 377px) {
+
   .Get_started {
     margin-top: min(10px, 10%);
   }

@@ -201,11 +201,16 @@ div > span:nth-child(2)
 .register {
   max-width: 101px;
   height: 44px;
-
   background: #053582;
   color: white;
   border-radius: 15px;
   padding: 15px;
+}
+.register:hover{
+  cursor: pointer;
+} 
+.Get_started:hover{
+  cursor: pointer;
 }
 .company_Name {
   width: max-content;

@@ -165,8 +165,13 @@ a{
   padding-left: min(20px, 10%);
   min-height: 18px;
 }
-.Register_Now {
+/*.Register_Now {
   color: #053582;
+}*/
+
+.Register_Now > a{
+  color: #053582;
+  background-color: white;
 }
 
 .Login {

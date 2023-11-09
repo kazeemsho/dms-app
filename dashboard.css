@@ -1,505 +1,1169 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
-  /* ALL DASHBORAD MOTHER*/
-  .our_dashboard{
-    display: flex;
-    gap: 39px;
-  
-  }
-  /* ALL DASHBORAD MOTHER*/
-  
-  .left_nav_bar{
-    outline: 1px solid red;
-    max-width: 215px;
-    max-height: 1000px;
-  }
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: #E5EFF4;
+}
+/* html, body { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+}  */
+/* ALL DASHBORAD MOTHER*/
+.our_dashboard {
+  display: flex;
+  /* gap: 39px; */
+  gap: 2.891vw;
+  min-width: 100vw;
+}
+.search_input {
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+  position: relative;
+  /* gap:15px ; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
 
-  img.dashborad_Logo_top{
-    height: 36px;
-    width: 36px;
-    display: block;   
-    margin-top: min(32px, 10%);
-    margin-left: min(13px, 10%);
-    
-  }
-  .progress_indicator{
-    
-    height: 1px;
-    width: 70px;
-    margin-top: min(30px, 10%);
-    margin-left: min(13px, 10%);
-    background: #FFFFFF;
-  }
-  .left_inner_dashboard{
-    outline: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    max-width: 205px;
-    min-height: 691px;
-    gap: 41px;
-    margin-left: min(5px, 10%);
-    margin-top: min(40px, 10%);
-    background: #FFFFFF;
-  }
+.search_icon {
+  position: absolute;
+  left: 0;
+  top: 5;
+  /* align-self: center;   */
+}
+.placeholder::placeholder {
+  position: absolute;
+  right: 0;
+}
+.search_navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  outline: 1px solid orange;
+  background-color: #053582;
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 
-  .dashborad, .Companies, .Order_Pool, .Order_History, 
-  .Subscriptions, .Earnings, .Reports, .Settings, 
-  .Supports{
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: min(34px, 10%);
-    padding-right: min(34px, 10%);
-    display: flex;
-    opacity: 40%;
-    color: #252525;
-    gap: 28px;
-  }
-  .dashborad{
-    background: #E8F0FE;
-    border-radius: 20px;
-    opacity: inherit;    
-  }
-  .total_exchange, 
-  .total_companies,
-  .total_cancelled,
-  .total_created
-  {
-    outline: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    /*max-width: 152px;*/
-    width: 100vw;
-    
-  }
-  .total_exchange h1, 
-  .total_companies h1,
-  .total_cancelled h1,
-  .total_created h1
-  {
-    max-width: 152px; 
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px;
-    text-align: left;
-  }
-  .total_exchange > div > span, 
-  .total_companies > div > span,
-  .total_cancelled > div > span
-  {
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 49px;
-    text-align: left;
-    color: #FF3A29;
-  }
- 
-  .total_exchange > div, 
-  .total_companies  > div,
-  .total_cancelled  > div,
-  .total_created > div
-  {
-    display: flex;
-    gap: 4px;
-  }
-  .Hart_green, .Frame, 
-  .warning_logo{
-    width: 37px;
-    height: 37px;
-  }
-  .total_exchange_right, 
-  .total_companies_right,
-  .total_cancelled_Orders_right
-  {
-    outline: 1px solid black;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: column;
-    gap: 29px;
-    max-width: 51px;
-  }
+.search_input img {
+  width: 18px;
+  height: 10px;
+}
+.outer_most_right_container {
+  display: flex;
+  flex-direction: column;
+}
+h1.h1_off_white_panel {
+  outline: 1px solid black;
+  width: min-content;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;  
+  text-align: left;
+  margin-top: 21px;
+  margin-bottom: 31px;
+}
+.off_white_panel {
+  display: flex;
+  flex-direction: column;
+  background: #E5EFF4;
 
-  .total_exchange_right > div > span, 
-  .total_companies_right > div > span,
-  .total_cancelled_Orders_right > div > span
-  {
-    width: 34px;
-    height: 16px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-  }
+}
+/* ALL DASHBORAD MOTHER*/
 
-  .total_exchange_right > div,
-  .total_companies_right > div,
-  .total_cancelled_Orders_right > div
-  {
-    display: flex;
-    gap: 5px;
-    max-width: 51px;
-   
-  }
-  .first_rigt_dashboard{
-    outline: 1px solid blue;
-    padding: min(10px, 10%);
-    max-width: 380px;
-    min-height: 106px;
-    /*width: 100vw;*/
-    display: flex;
-    gap: 77px; 
-  }
- .total_companies_container, 
- .total_cancelled_Orders_container,
- .total_created_Orders_container{
-    outline: 1px solid blue;
-    padding: min(10px, 10%);
-    max-width: 280px;
-    min-height: 106px;
-    /*width: 100vw;*/
-    display: flex;
-    gap: 77px; 
-  }
-  .total_exchange_outer, .total_companies_outer,
-  .total_cancelled_Orders_outer, 
-  .total_created_Orders_outer{
-    outline: 1px solid red;
-    max-width: 326px;
-    padding: min(35px, 10%);   
-  }
-  .exchange_image{
-    display: flex; 
-    gap: 88px;    
-  }
+.left_nav_bar {
+  outline: 1px solid red;
+  background-color: white;
+  max-width: 215px;
+  padding: min(30px, 10%);
+  /* min-height: 1000px; */
+  margin-left: 5px;
+  position: sticky;
+  top: 0px;
+}
 
-  .main_container_first_two_dashboard{
-    display: flex;
-    gap: 30px;
-  }
-  .three_forty{
-    outline: 1px solid purple;
-    max-width: 145px;
-    height: 38px;
-    font-size: 29px;
-    font-weight: 700;
-    text-align: left;
-    align-self: end;
-  }
-  .upper_mid_div{
-    outline: 1px solid purple;
-    max-width: 204px;
-    padding: min(26px, 10%);
-  }
-  .allen_lagos_three_forty{
-    outline: 1px solid purple;
-    display: flex;
-    gap: 53px;     
-  }
-  .one_twenty{
-    width: 64px;
-    height: 52px;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 52px;
-    text-align: left;
-  }
-  h4.companies_sent_orders{
-    max-width: 152px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-  }
-  .female_pics{
-    display: block;
-    margin-top: min(29px, 10%);
-  }
-  .female_pics_div{
-    outline:1px solid palegreen;
-    max-width: 112px;
-    padding-right: min(68px, 10%);
-    padding-bottom: min(25px, 10%);
-  }
-  .eight_four{
-    width: 52px;
-    height: 28px;
-    color: #FF3A29;
-  }
- .blue_graph{
-  max-width: 144px;   
- }
- .comapred_to_yesterday{
-  max-width: 154px; 
-  font-size: 14px; 
+img.dashborad_Logo_top {
+  height: 36px;
+  width: 36px;
+  display: block;
+  margin-top: min(32px, 10%);
+  margin-left: min(13px, 10%);
+}
+.progress_indicator {
+  height: 1px;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: min(13px, 10%);
+  background: #ffffff;
+}
+.left_inner_dashboard {
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  max-width: 205px;
+  /* min-height: max-content; */
+  /* gap: 41px; */
+  gap: 3.039vw;
+  margin-left: min(5px, 10%);
+  /* margin-top: min(40px, 10%); */
+  margin-top: 40px;
+  background: #ffffff;
+  position: sticky;
+  top: 0px;
+}
+
+.dashborad,
+.Companies,
+.Order_Pool,
+.Order_History,
+.Subscriptions,
+.Earnings,
+.Reports,
+.Settings,
+.Supports {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: min(34px, 10%);
+  padding-right: min(34px, 10%);
+  display: flex;
+  opacity: 40%;
+  color: #252525;
+  /* gap: 28px; */
+  gap: 2.076vw;
+}
+.dashborad img,
+.Companies img,
+.Order_Pool img,
+.Order_History img,
+.Subscriptions img,
+.Earnings img,
+.Reports img,
+.Settings img,
+.Supports img {
+  width: 24px;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: min(34px, 10%);
+  padding-right: min(34px, 10%);
+  display: flex;
+  opacity: 40%;
+  color: #252525;
+  /* gap: 28px; */
+  gap: 2.076vw; */
+}
+.dashborad {
+  background: #e8f0fe;
+  border-radius: 20px;
+  opacity: inherit;
+}
+.total_exchange,
+.total_companies,
+.total_cancelled,
+.total_created {
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* max-width: 152px; */
+  /* width: 100%; */
+  width: min-content;
+}
+
+.total_created h1 {
+  outline: 1px solid gold;
+  max-width: 175px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.total_exchange h1 {
+  outline: 1px solid gold;
+  max-width: 70px;
+  /* max-width:175px; */
+  /* width: 10.749vw; */
+  /* font-size: 20px; */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.total_companies h1 {
+  outline: 1px solid gold;
+  max-width: 175px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.total_exchange h1 {
+  outline: 1px solid gold;
+  max-width: 175px;
+  /* width: 10.749vw; */
+  /* font-size: 20px; */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.total_cancelled h1 {
+  outline: 1px solid gold;
+  /* width: min-content; */
+  max-width: 175px;
+  /* width:12.602vw;  */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.total_exchange > div > span,
+.total_companies > div > span,
+.total_cancelled > div > span,
+.total_created > div > span {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  text-align: left;
+  color: #ff3a29;
+}
+
+.total_exchange > div,
+.total_companies > div,
+.total_cancelled > div,
+.total_created > div {
+  display: flex;
+  gap: 1.631vw;
+}
+.Hart_green,
+.Frame,
+.warning_logo {
+  width: 37px;
+  height: 37px;
+}
+.total_exchange_right,
+.total_companies_right,
+.total_cancelled_Orders_right {
+  outline: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 29px;
+  max-width: 51px;
+}
+
+.total_exchange_right > div > span,
+.total_companies_right > div > span,
+.total_cancelled_Orders_right > div > span {
+  width: 34px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.total_exchange_right > div,
+.total_companies_right > div,
+.total_cancelled_Orders_right > div {
+  display: flex;
+  gap: 5px;
+  max-width: 51px;
+}
+
+.first_rigt_dashboard {
+  outline: 1px solid blue;
+  background-color:#FFFFFF;
+  padding: min(10px, 10%);
+  /* max-width: 380px; */
+  width: fit-content;
+  /* min-height: 106px; */
+  /*width: 100vw;*/
+  display: flex;
+  /* gap: 77px; */
+  gap: 5.708vw;
+  /* overflow: none;  */
+}
+
+.total_companies_container,
+.total_cancelled_Orders_container,
+.total_created_Orders_container {
+  outline: 1px solid red;
+  padding: min(10px, 10%);
+  /* max-width: 380px; */
+  width: min-content;
+  min-height: 106px;
+  /*width: 100vw;*/
+  display: flex;
+  /* gap: 77px;  */
+  gap: 5.708vw;
+}
+.total_exchange_outer{
+  outline: 1px solid forestgreen;
+  /* max-width: 326px; */
+  width: min-content;
+  padding: min(25px, 10%);
+  background: #FFFFFF;
+}
+
+
+.total_companies_outer,
+.total_cancelled_Orders_outer,
+.total_created_Orders_outer {
+  outline: 1px solid forestgreen;
+  /* max-width: 326px; */
+  width: min-content;
+  padding: min(25px, 10%);
+  background: #F9F9F9;
+}
+
+.exchange_image {
+  display: flex;
+  gap: 88px;    
+  /* gap: 2.523vw; */
+  align-items: center;
+  /* margin-top: 22px; */
+}
+.exchange_image img {
+  height: 14px;
+  width: 14px;
+}
+
+.main_container_first_two_dashboard {
+  display: flex;
+  /* gap: 30px; */
+  gap: 2.224vw;
+}
+.second_body_inner_dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.three_forty {
+  outline: 1px solid purple;
+  max-width: 145px;
+  height: 38px;
+  font-size: 29px;
+  font-weight: 700;
+  text-align: left;
+  align-self: end;
+}
+.upper_mid_div {
+  outline: 1px solid purple;
+  max-width: 204px;
+  padding: min(26px, 10%);
+  background: #F9F9F9;
+  /* min-height: 70vh; */
+  /* margin-top: 0px; */
+}
+.allen_lagos_three_forty {
+  outline: 1px solid purple;
+  display: flex;
+  /* gap: 53px;      */
+  gap: 3.929vw;
+}
+.one_twenty {
+  width: 64px;
+  height: 52px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+}
+
+._267_pushed_to_pool{
+  margin-bottom: 29px;
+}
+h4.companies_sent_orders {
+  max-width: 152px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.female_pics {
+  display: block;
+  margin-top: 29px;
+  /* margin-top: min(29px, 10%); */
+}
+.female_pics_div {
+  outline: 1px solid palegreen;
+  max-width: 112px;
+  min-height: 73px;
+  padding-right: min(68px, 10%);
+  padding-bottom: min(25px, 10%);
+  margin-bottom: 15px;
+}
+.eight_four {
+  display: block;
+  width: 52px;
+  height: 28px;
+  font-weight: bold;
+  color: #ff3a29;
+}
+.blue_graph {
+  /* width: min-content; */
+  width: 10.675vw;
+  /* width: min-content; */
+  /* max-width: min-content; */
+}
+.comapred_to_yesterday {
+  max-width: 154px;
+  font-size: 14px;
   font-weight: 400;
   text-align: left;
- }
+  margin-top: 11px;
+}
 
- h2.exchange{
+h2.exchange {
   max-width: 163px;
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
   text-align: left;
   color: #000000;
-  
- }
- h4.most_orders{
+}
+h4.most_orders {
   max-width: 129px;
   font-size: 12px;
   font-weight: 400;
   text-align: left;
-  color: #92929D;
- }
- .image_fz_deliveries_allen_lagos_container{
+  color: #92929d;
+}
+.image_fz_deliveries_allen_lagos_container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: space-between;
   margin-top: min(10px, 10%);
- }
- .exchange_poollogo{
+}
+.exchange_poollogo {
   width: 89px;
   height: 65px;
   border-radius: 12px;
   transform: rotate(-180deg);
- }
- h3.fz_deliveries{
+}
+h3.fz_deliveries {
   max-width: 99px;
   height: 21px;
   font-size: 16px;
   font-weight: 700;
   text-align: left;
   color: #000000;
- }
- 
- h5.allen_lagos{
-  width: 78px;
-  height: 20px;
+}
+
+h5.allen_lagos {
+  outline: 1px solid black;
+  max-width: 78px;
+  /* height: 20px; */
   opacity: 40%;
   font-size: 14px;
   font-weight: 500;
   text-align: left;
- }
- .exchange_pool_container{
-  outline:1px solid black;
-  max-width: 326px;
+}
+.exchange_pool_container {
+  outline: 1px solid red;
+  background: #F9F9F9;
+  width: fit-content;
   padding-top: min(22px, 10%);
   padding-left: min(26px, 10%);
   padding-right: min(23px, 10%);
- }
- .five_o4_orders__267_pushed_to_pool_container{
-  outline:1px solid blue;
+}
+.five_o4_orders__267_pushed_to_pool_container {
+  outline: 1px solid blue;
   margin-top: min(15px, 10%);
   display: flex;
   flex-direction: column;
   gap: 15px;
   max-width: 90px;
- }
- .five_o4{
+}
+.five_o4 {
   display: block;
   width: 44px;
   height: 29px;
   font-size: 22px;
   font-weight: 700;
-  color: #FF3A29;
- }
- ._267{
+  color: #ff3a29;
+}
+._267 {
   display: block;
   width: 44px;
   height: 29px;
   font-size: 22px;
   font-weight: 700;
-  color: ##4339F2;
- }
- .orders{
+  color: ##4339f2;
+}
+.orders {
   opacity: 40%;
   width: 46px;
   height: 20px;
   font-size: 14px;
   font-weight: 500;
- }
- .pushed_to_pool{
+}
+.pushed_to_pool {
   opacity: 40%;
-  max-width:100px;  
+  max-width: 100px;
   font-size: 14px;
   font-weight: 500;
-  text-align: left;  
- }
- h2.orders_today{
+  text-align: left;
+}
+h2.orders_today {
   max-width: 141px;
   /*margin-top: min(31px, 10%);*/
   margin-left: min(30px, 10%);
   font-size: 22px;
   font-weight: 500;
   text-align: left;
- }
- .daily{
+}
+.daily {
   /*margin-top: min(30px, 10%);*/
   font-size: 14px;
   font-weight: 400;
   text-align: left;
   max-width: 32px;
- }
- .daily_img_div{
+}
+.daily_img_div {
   display: flex;
   gap: 5px;
- }
- .order_today_container{  /* ?????????? */
-  max-width: 692px;
+  /* margin-right: 10px; */
+  margin-right: 20px;
+}
+.order_today_container {
+  /* ?????????? */
+  /* max-width: 692px; */
+  width: 100%;
   outline: 1px solid black;
   display: flex;
   justify-content: space-between;
+  /* margin-right: 20px; */
   margin-right: min(22px, 10%);
   align-items: center;
- }
- .orders_today_and_daily_img_div{
+}
+.orders_today_and_daily_img_div {
   outline: 1px solid blue;
-
+  background: #F9F9F9;
   padding-top: 31px;
- 
- }
- .coloured_round_shapes{
+}
+.coloured_round_shapes {
   margin-top: 9px;
   margin-left: min(33px, 10%);
   display: flex;
-  gap: 22px;
- }
- .blue_round_delivered, 
- .green_round_delivered, .red_round_cancelled{
+  /* gap: 22px; */
+  gap: 1.631vw;
+}
+.blue_round_delivered,
+.green_round_delivered,
+.red_round_cancelled {
   display: flex;
-  gap:6px;
- }
- .delivered, .delivered, .cancelled{
+  gap: 6px;
+}
+.delivered,
+.delivered,
+.cancelled {
   max-width: 81px;
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  color:#000000;
- }
- .number_div{
+  color: #000000;
+}
+.number_div {
   margin-left: min(53px, 10%);
   display: flex;
   gap: 57px;
- }
- ._320, ._230, ._80{
-  width:45px;
+  /* gap: 4.225vw; */
+}
+._320,
+._230,
+._80 {
+  width: 45px;
   height: 31px;
   font-size: 24px;
   font-weight: 500;
   text-align: left;
- }
- .full_outer_comtainer{
+}
+.full_outer_comtainer {
   display: flex;
   flex-direction: column;
- }
+}
 
- ._86_percent, 
- ._67_percent, img._14_percent {
+._86_percent,
+._67_percent,
+img._14_percent {
   width: 71px;
   height: 71px;
- }
+}
 
- .percentage_container{
+.percentage_container {
   display: flex;
   justify-content: end;
   margin-right: min(29px, 10%);
   gap: 17px;
-  
- }
- .first_body_inner_dashboard{
-  margin-top: min(80px, 10%);
- }
-
- .degree_container{
- 
+}
+.first_body_inner_dashboard {
+  /* margin-top: min(180px, 10%); */
+  align-self: center;
+  /* margin-right: 70px; */
+  margin-right: min(50px, 10%);
+  min-height: 100vh;
   display: flex;
-  gap: 39px;
-  margin-top: min(155px, 10%);
-  
- }
+  flex-direction: column;
+  gap: 2.03vw;
+}
 
- .mountain_section{  
+.degree_container {
+  display: flex;
+  /* gap: 39px; */
+  gap: 2.891vw;
+  /* margin-top: min(155px, 10%); */
+}
+
+.mountain_section {
   display: flex;
   flex-direction: column;
   margin-top: -10px;
-  max-width: 100%;
-  height: 204px;
- }
+  /* max-width: 100%; */
+  max-width: fit-content;
+  /* height: 204px; */
+}
 
- .Gray_mountaun{
+img.Gray_mountaun {
   width: 100%;
   height: 204px;
- }
+}
 
-.Green_mountain{
+img.Green_mountain {
   outline: none;
-  margin-top:-151px;
+  margin-top: -151px;
   width: 100%;
   height: 151px;
 }
-.Red_mountain{
-  margin-top:-66px;
+img.Red_mountain {
+  margin-top: -66px;
   width: 100%;
   height: 66px;
 }
-.indicator{
-  outline: 1px solid black;
-  max-width: 569px;
+.indicator {
+  outline: 1px solid blue;
+  /* max-width: 569px; */
+  width: min-content;
+  background: #FFFFFF;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   gap: 29px;
   padding: min(30px, 10%);
 }
-.indicator h1{
-  max-width: 176px;  
+.indicator h1 {
+  max-width: 176px;
   font-size: 22px;
   font-weight: 500;
   text-align: left;
   color: #000000;
 }
-.unordered_list > span  {
+.unordered_list > span {
   width: max-content;
   height: 15px;
   opacity: 40%;
   font-size: 10px;
-  font-weight: 400; 
-  text-align: left; 
+  font-weight: 400;
+  text-align: left;
 }
-.progrss_indicator{
+.progrss_indicator {
+  outline: 1px solid black;
   display: flex;
   flex-direction: column;
   gap: 34px;
-  
+  width: fit-content;
 }
-.progrss_indicator progress{
+.progrss_indicator progress {
   width: 20vw;
   height: 17px;
   color: #053582;
 }
-.unordered_list{
+.unordered_list {
   display: flex;
   flex-direction: column;
-  gap: 36px ;  
+  gap: 36px;
 }
-.below_degree_container{
+.below_degree_container {
   display: flex;
-  gap: 38px;
+  /* gap: 38px; */
+  gap: 2.817vw;
 }
-.list_indicator{
+.list_indicator {
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
+  gap: 2.224vw;
+  width: fit-content;
 }
-  
+
+@media (max-width: 1250px) {
+  .main_container_first_two_dashboard {
+    /* display: flex; */
+    /* gap: 30px; */
+    flex-direction: column;
+    /* gap: 2.224vw; */
+  }
+
+  .first_body_inner_dashboard {
+    min-height: fit-content;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .first_rigt_dashboard,
+  .total_companies_container,
+  .total_cancelled_Orders_container,
+  .total_created_Orders_container {
+    padding: 0px;
+    gap: 7.708vw;
+  }
+
  
+
+  .total_exchange_outer,
+  .total_companies_outer,
+  .total_cancelled_Orders_outer,
+  .total_created_Orders_outer {
+    outline: 1px solid red;
+    /* max-width: 326px; */
+    width: min-content;
+    height: fit-content;
+    padding: min(15px, 10%);
+  }
+  .indicator {
+    /* outline: 1px solid blue; */
+    /* max-width: 569px; */
+    /* width: min-content; */
+    /* margin-right: 5px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 29px; */
+    /* padding: min(30px, 10%); */
+    width: 80%;
+  }
+  .list_indicator {
+    /* display: flex; */
+    /* gap: 30px; */
+    /* gap: 2.224vw; */
+    width: 100%;
+  }
+
+  .progrss_indicator {
+    /* outline: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 34px; */
+    /* width: 300px;     */
+    width: 60%;
+  }
+  .progrss_indicator progress {
+    /* outline: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 34px; */
+    width: 40vw;
+  }
+}
+@media (max-width:737px) {
+  .first_body_inner_dashboard {    
+    /* flex-wrap: nowrap; */
+  }
+  .left_nav_bar {
+    /* outline: 1px solid mediumaquamarine; */
+    /* max-width: 215px; */
+    padding: 5px;
+    /* min-height: 1000px; */
+    margin-left: 0px;
+  }
+  .progress_indicator {
+    /* height: 1px; */
+    /* width: 50%; */
+    /* margin-top: 30px; */
+    margin-left: 3px;
+    /* background: #ffffff; */
+  }
+  .dashborad,
+  .Companies,
+  .Order_Pool,
+  .Order_History,
+  .Subscriptions,
+  .Earnings,
+  .Reports,
+  .Settings,
+  .Supports {
+    /* width: 100%; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: min(34px, 10%); */
+    /* padding-right: min(34px, 10%); */
+    /* display: flex; */
+    /* opacity: 40%; */
+    /* color: #252525; */
+    /* gap: 28px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 2.076vw;
+  }
+
+  
+}
+
+@media (max-width: 1077px) {
+  .indicator {
+    /* outline: 1px solid blue; */
+    /* max-width: 569px; */
+    /* width: min-content; */
+    /* margin-right: 5px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 29px; */
+    /* padding: min(30px, 10%); */
+    width: 50%;
+  }
+  .list_indicator {
+    /* display: flex; */
+    /* gap: 30px; */
+    /* gap: 2.224vw; */
+    width: 100%;
+  }
+
+  .progrss_indicator {
+    /* outline: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 34px; */
+    /* width: 300px;     */
+    width: 60%;
+  }
+  .progrss_indicator progress {
+    /* outline: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 34px; */
+    width: 20vw;
+  }
+
+  .left_inner_dashboard {
+    /* outline: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    max-width: 205px; */
+    /* min-height: max-content; */
+    /* gap: 41px; */
+    gap: 8.039vw;
+    /* margin-left: min(5px, 10%);
+    /* margin-top: min(40px, 10%); */
+    margin-top: 40px;
+    background: #ffffff; */
+  }
+
+
+
+
+
+}
+@media (max-width: 716px) {
+  .second_body_inner_dashboard {
+    /* display: flex; */
+    flex-direction: column-reverse;
+
+    /* gap: 42px; */
+  }
+}
+
+@media (max-width: 711px) {
+
+.first_rigt_dashboard,
+.total_companies_container,
+.total_cancelled_Orders_container,
+.total_created_Orders_container {
+  padding: 0px;
+  gap: 2.708vw;
+  }
+}
+
+
+
+@media (max-width:627px) {
+  .first_body_inner_dashboard {
+    /* min-height: fit-content; */
+    /* flex-direction: row; */
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+  } 
+ 
+  h1.h1_off_white_panel {
+    outline: 1px solid black;
+    /* width: min-content; */
+    width: 150px;
+    /* justify-content: center;
+    align-self: center; */
+    /* align-items: center; */
+    margin: 30px  auto;
+    /* font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 21px;
+    margin-bottom: 21px; */
+  }  
+}
+
+
+
+@media (max-width: 590px) {
+  
+  .below_degree_container {
+    /* display: flex; */
+    /* gap: 38px; */
+    flex-direction: column;
+    gap: 2.817vw;
+  }
+  .degree_container {
+    flex-direction: column;
+    /* gap: 39px; */
+    gap: 2.891vw;
+    /* gap: 1.891vw; */
+    /* margin-top: min(155px, 10%); */
+  }
+  .number_div {
+    margin-left: min(53px, 10%);
+    display: flex;
+    gap: 27px;
+    /* gap: 4.225vw; */
+  }
+  .exchange_pool_container{
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-self: center;
+  }
+  .indicator{
+    align-self:flex-start;
+    justify-content: center;
+  }
+  .upper_mid_div{
+    align-self: center;
+    justify-content: center;
+  }
+
+  .progrss_indicator {
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    width: fit-content;
+  }
+  .progrss_indicator progress {
+    width: 40vw;
+    height: 15px;
+    color: #053582;
+  }
+  /* .unordered_list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  } */
+  .below_degree_container {
+    display: flex;
+    /* gap: 38px; */
+    gap: 2.817vw;
+  }
+  .list_indicator {
+    display: flex;
+    /* gap: 30px; */
+    gap: 2.224vw;
+    /* width: fit-content; */
+  }
+
+  .upper_mid_div {
+    outline: 1px solid purple;
+    /* max-width: 204px; */
+    width: 400px;
+    padding: min(26px, 10%);
+    /* min-height: 70vh; */
+    /* margin-top: 0px; */
+  }
+  .blue_graph{
+    display: block;
+  }
+ 
+}
+
+@media (max-width:410px) {
+  h2.orders_today {
+    max-width: 141px;
+    /*margin-top: min(31px, 10%);*/
+    margin-left: min(30px, 10%);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .exchange_image img {
+    height: 14px;
+    width: 14px;
+  }
+  .exchange_image {
+    display: flex;
+    gap: 35px;    
+    /* gap: 2.523vw; */
+    align-items: center;
+  }
+
+  .delivered,
+.delivered,
+.cancelled {
+  max-width: 81px;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+}
+._320,
+._230,
+._80 {
+  width: 45px;
+  height: 31px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+
+img.blue_round,
+img.green_round,
+img.red_round{
+  width: 8px ;
+  height: 8px;
+}
+
+._86_percent,
+._67_percent,
+img._14_percent {
+  width: 41px;
+  height: 41px;
+}
+
+img.Gray_mountaun {
+  width: 100%;
+  height: 104px;
+}
+
+img.Green_mountain {
+  outline: none;
+  margin-top: -71px;
+  width: 100%;
+  height: 71px;
+}
+img.Red_mountain {
+  margin-top: -36px;
+  width: 100%;
+  height: 36px;
+}
+.three_forty {
+  outline: 1px solid purple;
+  max-width: 145px;
+  height: 38px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  align-self: end;
+}
+.left_inner_dashboard span{
+  font-size: 10px;
+}
+
+.total_created h1{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.total_exchange h1 {
+  /* outline: 1px solid gold; */
+  /* max-width: 70px; */
+  /* max-width:175px; */
+  /* width: 10.749vw; */
+  /* font-size: 20px; */
+  font-size: 15px;
+  font-weight: 700;
+  /* font-weight: 700; */
+  /* line-height: 26px; */
+  /* text-align: left; */
+}
+.total_companies h1 {
+  /* outline: 1px solid gold; */
+  /* max-width: 175px; */
+  font-size: 15px;
+  font-weight: 700;
+  /* font-weight: 700; */
+  /* line-height: 26px; */
+  /* text-align: left; */
+}
+
+.total_cancelled h1 {
+  /* outline: 1px solid gold; */
+  /* width: min-content; */
+  /* max-width: 175px; */
+  /* width:12.602vw;  */
+  font-size: 15px;
+  font-weight: 700;
+  /* line-height: 26px; */
+  /* text-align: left; */
+}
+.allen_lagos_three_forty {
+  /* outline: 1px solid purple; */
+  /* display: flex; */
+  /* gap: 53px;      */
+  gap: 45px;
+}
+
+
+}
+
+
+@media (max-width:300px) {
+  .total_exchange > div > span{
+    font-size: 25px;
+  }
+
+  .total_companies > div > span{
+    font-size: 25px;
+  }
+  .total_cancelled > div > span{
+    font-size: 25px;
+  }
+  .total_created > div > span{
+    font-size: 25px;
+  }
+
+  .total_exchange > div > img{
+    width: 40px;
+  }
+  .total_companies > div > img{
+    width: 40px;
+  }
+  .total_cancelled > div > img{
+    width: 40px;
+  }
+  .total_created > div > img{
+    width: 40px;
+  }
+
+}

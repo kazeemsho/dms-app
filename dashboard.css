@@ -876,7 +876,7 @@ img.Red_mountain {
 
 @media (max-width:432px) {
   .indicator {
-    outline: 1px solid blue;
+    
     padding: 0px;
     justify-content: flex-start;
     align-self:flex-start;

@@ -923,13 +923,11 @@ img.Red_mountain {
     /* margin-top: min(40px, 10%); */
     margin-top: 40px;
     background: #ffffff; */
+    
   }
-
-
-
-
-
 }
+
+
 @media (max-width: 716px) {
   .second_body_inner_dashboard {
     /* display: flex; */
@@ -964,9 +962,9 @@ img.Red_mountain {
   } 
  
   h1.h1_off_white_panel {
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
     /* width: min-content; */
-    width: 150px;
+    width: 170px;
     /* justify-content: center;
     align-self: center; */
     /* align-items: center; */
@@ -1024,6 +1022,10 @@ img.Red_mountain {
     justify-content: center;
     align-self:center;
     margin-right: 55px;
+    margin-top: 20px;
+  }
+  .orders_today_and_daily_img_div{
+    margin-top: 20px;
   }
 
   /* .indicator{
@@ -1034,6 +1036,7 @@ img.Red_mountain {
     align-self: center;
     justify-content: center;
     margin-right: 80px;
+    /* margin-top: 20px; */
   }
 
   .progrss_indicator {

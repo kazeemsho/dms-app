@@ -960,15 +960,24 @@ img.Red_mountain {
     gap: 45px;
     margin-bottom: 25px;
   } 
+
+
+
+ 
  
   h1.h1_off_white_panel {
-    outline: 1px solid black;
-    /* width: min-content; */
-    width: 170px;
+    /* outline: 1px solid black; */
+    width: max-content;
+    font-size: 25px;
+    letter-spacing: 5px;
+    /* margin-left: -50px; */
+    
+    /* width: 150px; */
     /* justify-content: center;
     align-self: center; */
     /* align-items: center; */
     margin: 30px  auto;
+    /* margin-right: 20px; */
     /* font-size: 28px;
     font-weight: 700;
     line-height: 36px;

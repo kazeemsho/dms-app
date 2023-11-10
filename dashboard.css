@@ -10,13 +10,7 @@ a {
 body{
   background-color: #E5EFF4;
 }
-/* html, body { 
-  height: 100%; 
-  margin: 0; 
-  padding: 0; 
-  overflow: hidden; 
-}  */
-/* ALL DASHBORAD MOTHER*/
+
 .jude{
   width: 48px;
   height: 44px;
@@ -63,11 +57,7 @@ img.user{
 }
 .search_input {
   display: flex;
-  /* flex-direction: column-reverse; */
   position: relative;
-  /* margin-left: -30px; */
-  /* gap:15px ; */
-  /* justify-content: center; */
   align-items: center;
 }
 img.search_icon {
@@ -76,17 +66,14 @@ img.search_icon {
   position: absolute;
   left: 0;
   top: 15;
-  /* align-self: center;   */
 }
 input.placeholder::placeholder {
   position: absolute;
   right: 0;
   font-size: 15px;
-  /* height: 20px; */
 }
 input.placeholder{
   width: 70px; 
-  /* height: 20px; */
   border: none;
 }
 .search_navigator {
@@ -95,12 +82,8 @@ input.placeholder{
   align-items: center;
   height: 75px;
   width: 100%;
-  /* width: 100vw; */
-  /* outline: 1px solid orange; */
   padding: min(14px, 10%);
   background-color: #FFFFFF;
-  /* margin-left: -40px; */
-  /* margin-right: -40px; */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -112,7 +95,6 @@ input.placeholder{
   flex-direction: column;
 }
 h1.h1_off_white_panel {
-  /* outline: 1px solid black; */
   width: min-content;
   font-size: 28px;
   font-weight: 700;
@@ -130,11 +112,9 @@ h1.h1_off_white_panel {
 /* ALL DASHBORAD MOTHER*/
 
 .left_nav_bar {
-  /* outline: 1px solid red; */
   background-color: white;
   max-width: 215px;
   padding: min(30px, 10%);
-  /* min-height: 1000px; */
   margin-left: 5px;
   position: sticky;
   top: 0px;
@@ -156,17 +136,13 @@ img.dashborad_Logo_top {
   background: #ffffff;
 }
 .left_inner_dashboard {
-  /* outline: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-self: center;
   justify-content: center;
   max-width: 205px;
-  /* min-height: max-content; */
-  /* gap: 41px; */
   gap: 3.039vw;
   margin-left: min(5px, 10%);
-  /* margin-top: min(40px, 10%); */
   margin-top: 40px;
   background: #ffffff;
   position: sticky;
@@ -203,15 +179,8 @@ img.dashborad_Logo_top {
 .Settings img,
 .Supports img {
   width: 24px;
-  /* padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: min(34px, 10%);
-  padding-right: min(34px, 10%);
-  display: flex;
-  opacity: 40%;
-  color: #252525;
   /* gap: 28px; */
-  gap: 2.076vw; */
+  gap: 2.076vw; 
 }
 .dashborad {
   background: #e8f0fe;
@@ -222,17 +191,13 @@ img.dashborad_Logo_top {
 .total_companies,
 .total_cancelled,
 .total_created {
-  /* outline: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* max-width: 152px; */
-  /* width: 100%; */
   width: min-content;
 }
 
 .total_created h1 {
-  /* outline: 1px solid gold; */
   max-width: 175px;
   font-size: 20px;
   font-weight: 700;
@@ -240,18 +205,13 @@ img.dashborad_Logo_top {
   text-align: left;
 }
 .total_exchange h1 {
-  /* outline: 1px solid gold; */
   max-width: 70px;
-  /* max-width:175px; */
-  /* width: 10.749vw; */
-  /* font-size: 20px; */
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
   text-align: left;
 }
 .total_companies h1 {
-  /* outline: 1px solid gold; */
   max-width: 175px;
   font-size: 20px;
   font-weight: 700;
@@ -259,20 +219,14 @@ img.dashborad_Logo_top {
   text-align: left;
 }
 .total_exchange h1 {
-  /* outline: 1px solid gold; */
   max-width: 175px;
-  /* width: 10.749vw; */
-  /* font-size: 20px; */
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
   text-align: left;
 }
 .total_cancelled h1 {
-  /* outline: 1px solid gold; */
-  /* width: min-content; */
   max-width: 175px;
-  /* width:12.602vw;  */
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
@@ -306,7 +260,6 @@ img.dashborad_Logo_top {
 .total_exchange_right,
 .total_companies_right,
 .total_cancelled_Orders_right {
-  /* outline: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -335,47 +288,32 @@ img.dashborad_Logo_top {
 }
 
 .first_rigt_dashboard {
-  /* outline: 1px solid blue; */
   background-color:#FFFFFF;
   padding: min(10px, 10%);
-  /* max-width: 380px; */
   width: fit-content;
-  /* min-height: 106px; */
-  /*width: 100vw;*/
   display: flex;
   /* gap: 77px; */
   gap: 5.708vw;
-  /* margin-right: 15px; */
-  /* overflow: none;  */
 }
 
 .total_companies_container,
 .total_cancelled_Orders_container,
 .total_created_Orders_container {
-  /* outline: 1px solid red; */
   padding: min(10px, 10%);
-  /* max-width: 380px; */
   width: min-content;
   min-height: 106px;
-  /*width: 100vw;*/
   display: flex;
   /* gap: 77px;  */
   gap: 5.708vw;
 }
 .total_exchange_outer{
-  /* outline: 1px solid forestgreen; */
-  /* max-width: 326px; */
   width: min-content;
   padding: min(25px, 10%);
   background: #FFFFFF;
 }
-
-
 .total_companies_outer,
 .total_cancelled_Orders_outer,
 .total_created_Orders_outer {
-  /* outline: 1px solid forestgreen; */
-  /* max-width: 326px; */
   width: min-content;
   padding: min(25px, 10%);
   background: #F9F9F9;
@@ -386,7 +324,6 @@ img.dashborad_Logo_top {
   gap: 88px;    
   /* gap: 2.523vw; */
   align-items: center;
-  /* margin-top: 22px; */
 }
 .exchange_image img {
   height: 14px;
@@ -404,7 +341,6 @@ img.dashborad_Logo_top {
   gap: 42px;
 }
 .three_forty {
-  /* outline: 1px solid purple; */
   max-width: 145px;
   height: 38px;
   font-size: 29px;
@@ -413,7 +349,6 @@ img.dashborad_Logo_top {
   align-self: end;
 }
 .upper_mid_div {
-  /* outline: 1px solid purple; */
   max-width: 204px;
   padding: min(26px, 10%);
   background: #F9F9F9;
@@ -421,7 +356,6 @@ img.dashborad_Logo_top {
   /* margin-top: 0px; */
 }
 .allen_lagos_three_forty {
-  /* outline: 1px solid purple; */
   display: flex;
   /* gap: 53px;      */
   gap: 3.929vw;
@@ -448,10 +382,8 @@ h4.companies_sent_orders {
 .female_pics {
   display: block;
   margin-top: 29px;
-  /* margin-top: min(29px, 10%); */
 }
 .female_pics_div {
-  /* outline: 1px solid palegreen; */
   max-width: 112px;
   min-height: 73px;
   padding-right: min(68px, 10%);
@@ -467,11 +399,9 @@ h4.companies_sent_orders {
 }
 
 .blue_graph {
-  /* width: min-content; */
   width: 10.675vw;
-  /* width: min-content; */
-  /* max-width: min-content; */
 }
+
 .comapred_to_yesterday {
   max-width: 154px;
   font-size: 14px;
@@ -519,16 +449,13 @@ h3.fz_deliveries {
 }
 
 h5.allen_lagos {
-  /* outline: 1px solid black; */
   max-width: 78px;
-  /* height: 20px; */
   opacity: 40%;
   font-size: 14px;
   font-weight: 500;
   text-align: left;
 }
 .exchange_pool_container {
-  /* outline: 1px solid red; */
   background: #F9F9F9;
   width: fit-content;
   padding-top: min(22px, 10%);
@@ -536,7 +463,6 @@ h5.allen_lagos {
   padding-right: min(23px, 10%);
 }
 .five_o4_orders__267_pushed_to_pool_container {
-  /* outline: 1px solid blue; */
   margin-top: min(15px, 10%);
   display: flex;
   flex-direction: column;
@@ -575,14 +501,12 @@ h5.allen_lagos {
 }
 h2.orders_today {
   max-width: 141px;
-  /*margin-top: min(31px, 10%);*/
   margin-left: min(30px, 10%);
   font-size: 22px;
   font-weight: 500;
   text-align: left;
 }
 .daily {
-  /*margin-top: min(30px, 10%);*/
   font-size: 14px;
   font-weight: 400;
   text-align: left;
@@ -591,22 +515,16 @@ h2.orders_today {
 .daily_img_div {
   display: flex;
   gap: 5px;
-  /* margin-right: 10px; */
   margin-right: 20px;
 }
 .order_today_container {
-  /* ?????????? */
-  /* max-width: 692px; */
   width: 100%;
-  /* outline: 1px solid black; */
   display: flex;
   justify-content: space-between;
-  /* margin-right: 20px; */
   margin-right: min(22px, 10%);
   align-items: center;
 }
 .orders_today_and_daily_img_div {
-  /* outline: 1px solid blue; */
   background: #F9F9F9;
   padding-top: 31px;
 }
@@ -666,9 +584,7 @@ img._14_percent {
   gap: 17px;
 }
 .first_body_inner_dashboard {
-  /* margin-top: min(180px, 10%); */
   align-self: center;
-  /* margin-right: 70px; */
   margin-right: min(50px, 10%);
   min-height: 100vh;
   display: flex;
@@ -680,16 +596,13 @@ img._14_percent {
   display: flex;
   /* gap: 39px; */
   gap: 2.891vw;
-  /* margin-top: min(155px, 10%); */
 }
 
 .mountain_section {
   display: flex;
   flex-direction: column;
   margin-top: -10px;
-  /* max-width: 100%; */
   max-width: fit-content;
-  /* height: 204px; */
 }
 
 img.Gray_mountaun {
@@ -709,8 +622,7 @@ img.Red_mountain {
   height: 66px;
 }
 .indicator {
-  outline: 1px solid blue;
-  /* max-width: 569px; */
+ 
   width: min-content;
   background: #FFFFFF;
   margin-right: 5px;
@@ -735,7 +647,6 @@ img.Red_mountain {
   text-align: left;
 }
 .progrss_indicator {
-  /* outline: 1px solid black; */
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -765,10 +676,7 @@ img.Red_mountain {
 
 @media (max-width: 1250px) {
   .main_container_first_two_dashboard {
-    /* display: flex; */
-    /* gap: 30px; */
     flex-direction: column;
-    /* gap: 2.224vw; */
   }
 
   .first_body_inner_dashboard {
@@ -782,71 +690,40 @@ img.Red_mountain {
   .total_created_Orders_container {
     padding: 0px;
     gap: 7.708vw;
-  }
-
- 
+  } 
 
   .total_exchange_outer,
   .total_companies_outer,
   .total_cancelled_Orders_outer,
   .total_created_Orders_outer {
-    /* outline: 1px solid red; */
-    /* max-width: 326px; */
     width: min-content;
     height: fit-content;
     padding: min(15px, 10%);
   }
   .indicator {
-    /* outline: 1px solid blue; */
-    /* max-width: 569px; */
-    /* width: min-content; */
-    /* margin-right: 5px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 29px; */
-    /* padding: min(30px, 10%); */
     width: 80%;
   }
   .list_indicator {
-    /* display: flex; */
-    /* gap: 30px; */
-    /* gap: 2.224vw; */
     width: 100%;
   }
 
   .progrss_indicator {
-    /* outline: 1px solid black; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 34px; */
-    /* width: 300px;     */
     width: 60%;
   }
   .progrss_indicator progress {
-    /* outline: 1px solid black; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 34px; */
     width: 40vw;
   }
 }
 @media (max-width:737px) {
   .first_body_inner_dashboard {    
-    /* flex-wrap: nowrap; */
+   
   }
   .left_nav_bar {
-    /* outline: 1px solid mediumaquamarine; */
-    /* max-width: 215px; */
     padding: 5px;
-    /* min-height: 1000px; */
     margin-left: 0px;
   }
   .progress_indicator {
-    /* height: 1px; */
-    /* width: 50%; */
-    /* margin-top: 30px; */
     margin-left: 3px;
-    /* background: #ffffff; */
   }
   .dashborad,
   .Companies,
@@ -857,72 +734,31 @@ img.Red_mountain {
   .Reports,
   .Settings,
   .Supports {
-    /* width: 100%; */
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-    /* padding-left: min(34px, 10%); */
-    /* padding-right: min(34px, 10%); */
-    /* display: flex; */
-    /* opacity: 40%; */
-    /* color: #252525; */
-    /* gap: 28px; */
     flex-direction: column;
     align-items: center;
     gap: 2.076vw;
-  }
-
-  
+  }  
 }
 
 @media (max-width: 1077px) {
   .indicator {
-    /* outline: 1px solid blue; */
-    /* max-width: 569px; */
-    /* width: min-content; */
-    /* margin-right: 5px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 29px; */
-    /* padding: min(30px, 10%); */
     width: 50%;
   }
   .list_indicator {
-    /* display: flex; */
-    /* gap: 30px; */
-    /* gap: 2.224vw; */
     width: 100%;
   }
 
   .progrss_indicator {
-    /* outline: 1px solid black; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 34px; */
-    /* width: 300px;     */
     width: 60%;
   }
   .progrss_indicator progress {
-    /* outline: 1px solid black; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 34px; */
     width: 20vw;
   }
 
   .left_inner_dashboard {
-    /* outline: 1px solid blue;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    max-width: 205px; */
-    /* min-height: max-content; */
-    /* gap: 41px; */
     gap: 8.039vw;
-    /* margin-left: min(5px, 10%);
-    /* margin-top: min(40px, 10%); */
     margin-top: 40px;
-    background: #ffffff; */
+    background: #ffffff; 
     
   }
 }
@@ -930,10 +766,7 @@ img.Red_mountain {
 
 @media (max-width: 716px) {
   .second_body_inner_dashboard {
-    /* display: flex; */
     flex-direction: column-reverse;
-
-    /* gap: 42px; */
   }
 }
 
@@ -948,53 +781,25 @@ img.Red_mountain {
   }
 }
 
-
-
 @media (max-width:627px) {
   .first_body_inner_dashboard {
-    /* min-height: fit-content; */
-    /* flex-direction: row; */
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     gap: 45px;
     margin-bottom: 25px;
-  } 
-
-
-
- 
+  }  
  
   h1.h1_off_white_panel {
-    /* outline: 1px solid black; */
     width: max-content;
     font-size: 25px;
     letter-spacing: 5px;
-    /* margin-left: -50px; */
-    
-    /* width: 150px; */
-    /* justify-content: center;
-    align-self: center; */
-    /* align-items: center; */
     margin: 30px  auto;
-    /* margin-right: 20px; */
-    /* font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 21px;
-    margin-bottom: 21px; */
   }  
 }
 
-
-
-@media (max-width: 590px) {
-  
+@media (max-width: 590px) {  
   .below_degree_container {
-    /* display: flex; */
-    /* gap: 38px; */
     flex-direction: column;
     /* gap: 2.817vw; */
     gap: 45px;
@@ -1003,8 +808,6 @@ img.Red_mountain {
     flex-direction: column;
     /* gap: 39px; */
     gap: 2.891vw;
-    /* gap: 1.891vw; */
-    /* margin-top: min(155px, 10%); */
   }
   .number_div {
     margin-left: min(53px, 10%);
@@ -1013,43 +816,32 @@ img.Red_mountain {
     /* gap: 4.225vw; */
   }
   .exchange_pool_container{
-    /* justify-content: center; */
-    /* align-items: center; */
     align-self: center;
     /* gap: 45px; */
   }
+
+  .indicator h1 {
+    font-size: 18px;
+  }
+
   .indicator {
-    outline: 1px solid blue;
-    /* max-width: 569px; */
-    /* width: min-content;
-    background: #FFFFFF;
-    margin-right: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 29px; */
     padding: 0px;
+    width: fit-content;
     justify-content: center;
-    align-self:center;
-    margin-right: 55px;
+    align-self:center;  
     margin-top: 20px;
   }
   .orders_today_and_daily_img_div{
     margin-top: 20px;
   }
 
-  /* .indicator{
-    /* align-self:center; 
-    justify-content: center;
-  } */
   .upper_mid_div{
     align-self: center;
     justify-content: center;
     margin-right: 80px;
-    /* margin-top: 20px; */
   }
 
   .progrss_indicator {
-    /* outline: 1px solid black; */
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -1060,11 +852,7 @@ img.Red_mountain {
     height: 15px;
     color: #053582;
   }
-  /* .unordered_list {
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-  } */
+
   .below_degree_container {
     display: flex;
     /* gap: 38px; */
@@ -1074,16 +862,11 @@ img.Red_mountain {
     display: flex;
     /* gap: 30px; */
     gap: 2.224vw;
-    /* width: fit-content; */
   }
 
   .upper_mid_div {
-    /* outline: 1px solid purple; */
-    /* max-width: 204px; */
     width: 400px;
     padding: min(26px, 10%);
-    /* min-height: 70vh; */
-    /* margin-top: 0px; */
   }
   .blue_graph{
     display: block;
@@ -1094,13 +877,6 @@ img.Red_mountain {
 @media (max-width:432px) {
   .indicator {
     outline: 1px solid blue;
-    /* max-width: 569px; */
-    /* width: min-content;
-    background: #FFFFFF;
-    margin-right: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 29px; */
     padding: 0px;
     justify-content: flex-start;
     align-self:flex-start;
@@ -1113,21 +889,12 @@ img.Red_mountain {
 @media (max-width:410px) {
   h2.orders_today {
     max-width: 141px;
-    /*margin-top: min(31px, 10%);*/
     margin-left: min(30px, 10%);
     font-size: 15px;
     font-weight: 500;
     text-align: left;
   }
   .indicator {
-    outline: 1px solid blue;
-    /* max-width: 569px; */
-    /* width: min-content;
-    background: #FFFFFF;
-    margin-right: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 29px; */
     padding: 0px;
     justify-content: flex-start;
     align-self:flex-start;
@@ -1148,9 +915,6 @@ img.Red_mountain {
     display: block;
   }
   .user_div{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 1px; */
     display: none;
   }
 
@@ -1204,7 +968,6 @@ img.Red_mountain {
   height: 36px;
 }
 .three_forty {
-  /* outline: 1px solid purple; */
   max-width: 145px;
   height: 38px;
   font-size: 15px;
@@ -1222,41 +985,19 @@ img.Red_mountain {
 }
 
 .total_exchange h1 {
-  /* outline: 1px solid gold; */
-  /* max-width: 70px; */
-  /* max-width:175px; */
-  /* width: 10.749vw; */
-  /* font-size: 20px; */
   font-size: 15px;
   font-weight: 700;
-  /* font-weight: 700; */
-  /* line-height: 26px; */
-  /* text-align: left; */
 }
 .total_companies h1 {
-  /* outline: 1px solid gold; */
-  /* max-width: 175px; */
   font-size: 15px;
   font-weight: 700;
-  /* font-weight: 700; */
-  /* line-height: 26px; */
-  /* text-align: left; */
 }
 
 .total_cancelled h1 {
-  /* outline: 1px solid gold; */
-  /* width: min-content; */
-  /* max-width: 175px; */
-  /* width:12.602vw;  */
   font-size: 15px;
   font-weight: 700;
-  /* line-height: 26px; */
-  /* text-align: left; */
 }
 .allen_lagos_three_forty {
-  /* outline: 1px solid purple; */
-  /* display: flex; */
-  /* gap: 53px;      */
   gap: 45px;
 }
 
@@ -1265,11 +1006,8 @@ img.Red_mountain {
   justify-content: center;
   margin-right: 80px;
   margin-left: 35px;
+  }
 }
-
-
-}
-
 
 @media (max-width:300px) {
   .total_exchange > div > span{

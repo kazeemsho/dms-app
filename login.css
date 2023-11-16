@@ -66,6 +66,13 @@ a{
   color: white;
   background-color: #053582;
 }
+.dashboard_link{
+  background-color: inherit;
+  color: #053582;
+  font-size: 12px;
+  cursor: pointer;
+  align-self: flex-end;
+}
 .get_started_button {
   width: 126px;
   height: 44px;

@@ -734,6 +734,7 @@ img.Red_mountain {
   .Reports,
   .Settings,
   .Supports {
+    opacity:1;
     flex-direction: column;
     align-items: center;
     gap: 2.076vw;
@@ -1007,6 +1008,26 @@ img.Red_mountain {
   margin-left: 35px;
   }
 }
+
+
+
+/* .Companies,
+.Order_Pool,
+.Order_History,
+.Subscriptions {
+  opacity: 100%;
+  /* color: black; */
+  /* gap: 28px; */
+  /* gap: 2.076vw; */
+} */
+
+
+
+
+
+
+
+
 
 @media (max-width:300px) {
   .total_exchange > div > span{

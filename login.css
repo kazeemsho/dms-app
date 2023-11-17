@@ -165,6 +165,12 @@ a{
   min-height: 44px;
   gap: 87px;
 }
+
+[href="./forgot_password.html"]{
+  color:#053582;
+  background-color: inherit;
+  cursor: pointer;
+}
 .Just_joining, .Register_Now {
   
   font-size: 14px;
